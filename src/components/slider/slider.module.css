@@ -1,0 +1,21 @@
+.slider {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.slider ul li h3 {
+  font-size: 24px;
+}
+.slider ul li h3:hover {
+  color: rgb(0, 200, 5);
+}
+
+.arrows {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.arrows:hover {
+  color: rgb(0, 200, 5);
+}

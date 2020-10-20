@@ -1,0 +1,42 @@
+.para {
+  max-width: 60%;
+  margin-top: -8rem;
+}
+
+.para p {
+  font-size: 20px;
+}
+
+.btn {
+  padding-top: 3rem;
+}
+
+.btn button {
+  background: var(--pri-txt-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .text {
+    margin-top: 9rem !important;
+    margin-bottom: 0;
+  }
+  .para {
+    max-width: 100%;
+  }
+  .btn {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 2rem !important;
+  }
+  .btn button {
+    width: 100%;
+  }
+}

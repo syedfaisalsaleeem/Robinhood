@@ -1,0 +1,21 @@
+{
+  "name": "robin-hood",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
+    "next": "9.5.5",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-magic-slider-dots": "^1.2.2",
+    "react-slick": "^0.27.12",
+    "slick-carousel": "^1.8.1"
+  }
+}
