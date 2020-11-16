@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx next build",
-    "start": "npx next start"
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.1.0",
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
